@@ -151,12 +151,14 @@ const getDefaultThemeStyling = theme => {
             borderRadius: constants.objectSizeBorderRadius,
             fontStyle: constants.objectSizeFontStyle,
             margin: constants.objectSizeMargin,
-            cursor: 'default'
+            cursor: 'default',
+            userSelect: 'none',
         },
         'data-type-label': {
             fontSize: constants.dataTypeFontSize,
             marginRight: constants.dataTypeMarginRight,
-            opacity: constants.datatypeOpacity
+            opacity: constants.datatypeOpacity,
+            userSelect: 'none',
         },
         boolean: {
             display: 'inline-block',
